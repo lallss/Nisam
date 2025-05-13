@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Seçenekler</title>
+    <style>
+        body {
+            font-family: sans-serif;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+            margin: 0;
+            background-color:pink;
+        }
+        .orta-yazi {
+            font-size: 2em;
+            margin-bottom: 30px;
+        }
+        .buton-container {
+            display: flex;
+            gap: 20px;
+        }
+        .buton {
+            padding: 15px 30px;
+            font-size: 1.1em;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .evet-butonu {
+            background-color: #a7f3d0; /* Fıstık yeşili */
+            color: black;
+        }
+        .hayir-butonu {
+            background-color: #fca5a5; /* Açık kırmızı */
+            color: black;
+        }
+    </style>
+</head>
+<body>
+    <div class="orta-yazi">
+        BARİSALİM Mİ GÜZELİM
+    </div>
+    <div class="buton-container">
+        <button class="buton evet-butonu" onclick="window.location.href='evet.html'">Evet</button>
+        <button class="buton hayir-butonu" onclick="window.location.href='hayir.html'">Hayır</button>
+    </div>
+</body>
+</html>

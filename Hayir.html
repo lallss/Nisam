@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Böyle Bir Seçenek Yok</title>
+    <style>
+        body {
+            background-color: red;
+            color: white;
+            font-family: sans-serif;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+            margin: 0;
+            text-align: center;
+        }
+        .mesaj {
+            font-size: 2em;
+            margin-bottom: 30px;
+        }
+        .geri-butonu {
+            background-color: white;
+            color: red;
+            padding: 15px 30px;
+            font-size: 1.1em;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div class="mesaj">
+        Böyle bir seçenek yok :D
+    </div>
+    <button class="geri-butonu" onclick="window.history.back()">Geri</button>
+</body>
+</html>
